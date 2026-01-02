@@ -35,7 +35,6 @@ I've built self-serve SMB products at world-class companies (Intuit, Adobe, Fair
 
 <div class="experience-item">
   <div class="company-header">
-    <img src="assets/images/logos/adobe.png" alt="Adobe" class="company-logo">
     <div class="title-date">
       <h3>Head of Product, Acrobat Sign</h3>
       <p class="date">Adobe | 2024 – Present</p>
@@ -53,7 +52,6 @@ I've built self-serve SMB products at world-class companies (Intuit, Adobe, Fair
 
 <div class="experience-item">
   <div class="company-header">
-    <img src="assets/images/logos/faire.png" alt="Faire" class="company-logo">
     <div class="title-date">
       <h3>Group Product Manager, Enterprise</h3>
       <p class="date">Faire | 2022 – 2023</p>
@@ -71,7 +69,6 @@ I've built self-serve SMB products at world-class companies (Intuit, Adobe, Fair
 
 <div class="experience-item">
   <div class="company-header">
-    <img src="assets/images/logos/intuit.png" alt="Intuit" class="company-logo">
     <div class="title-date">
       <h3>Group Product Manager, QuickBooks Live</h3>
       <p class="date">Intuit | 2020 – 2022</p>
@@ -88,7 +85,6 @@ I've built self-serve SMB products at world-class companies (Intuit, Adobe, Fair
 
 <div class="experience-item">
   <div class="company-header">
-    <img src="assets/images/logos/intuit.png" alt="Intuit" class="company-logo">
     <div class="title-date">
       <h3>Senior Product Manager, QuickBooks Online</h3>
       <p class="date">Intuit | 2018 – 2020</p>
@@ -104,7 +100,6 @@ I've built self-serve SMB products at world-class companies (Intuit, Adobe, Fair
 
 <div class="experience-item">
   <div class="company-header">
-    <img src="assets/images/logos/intuit.png" alt="Intuit" class="company-logo">
     <div class="title-date">
       <h3>Senior Marketing Manager, QuickBooks Growth</h3>
       <p class="date">Intuit | 2016 – 2018</p>
@@ -119,7 +114,6 @@ I've built self-serve SMB products at world-class companies (Intuit, Adobe, Fair
 
 <div class="experience-item">
   <div class="company-header">
-    <img src="assets/images/logos/accenture.png" alt="Accenture" class="company-logo">
     <div class="title-date">
       <h3>Senior Consultant / Consultant</h3>
       <p class="date">Kurt Salmon, part of Accenture Strategy | 2010 – 2014</p>
@@ -134,7 +128,6 @@ I've built self-serve SMB products at world-class companies (Intuit, Adobe, Fair
 
 <div class="experience-item">
   <div class="company-header">
-    <img src="assets/images/logos/baml.png" alt="Bank of America Merrill Lynch" class="company-logo">
     <div class="title-date">
       <h3>Investment Banking Analyst</h3>
       <p class="date">Bank of America Merrill Lynch | 2009 – 2010</p>
