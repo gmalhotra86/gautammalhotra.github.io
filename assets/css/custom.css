@@ -1,0 +1,241 @@
+/* Personal Website Custom Styles */
+
+:root {
+  --navy: #1e3a8a;
+  --light-gray: #f8fafc;
+  --text-black: #0f172a;
+  --border-gray: #e2e8f0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.6;
+  color: var(--text-black);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+  padding-bottom: 40px;
+  border-bottom: 2px solid var(--border-gray);
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--navy);
+}
+
+.tagline {
+  font-size: 1.1rem;
+  color: #64748b;
+  margin: 0.5rem 0;
+}
+
+.current-role {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0.5rem 0 1rem 0;
+}
+
+.contact-links {
+  margin-top: 1rem;
+}
+
+.contact-links a {
+  color: var(--navy);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-links a:hover {
+  text-decoration: underline;
+}
+
+.hero-image {
+  margin-left: 40px;
+}
+
+.headshot {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--border-gray);
+}
+
+/* About Section */
+h2 {
+  color: var(--navy);
+  font-size: 1.75rem;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--border-gray);
+}
+
+/* Timeline & Experience */
+.timeline {
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border-gray);
+}
+
+.experience-item {
+  position: relative;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid var(--light-gray);
+}
+
+.experience-item::before {
+  content: '';
+  position: absolute;
+  left: -29px;
+  top: 8px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--navy);
+  border: 2px solid white;
+  box-shadow: 0 0 0 2px var(--navy);
+}
+
+.company-header {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.company-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 15px;
+  filter: grayscale(30%);
+}
+
+.title-date {
+  flex: 1;
+}
+
+.experience-item h3 {
+  font-size: 1.2rem;
+  margin: 0 0 0.25rem 0;
+  color: var(--text-black);
+}
+
+.date {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.context {
+  font-size: 0.95rem;
+  color: #475569;
+  font-style: italic;
+  margin: 10px 0 15px 0;
+}
+
+.experience-item ul {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+
+.experience-item li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Bold metrics in bullets */
+.experience-item li strong {
+  font-weight: 700;
+  color: var(--navy);
+}
+
+/* Footer */
+.footer {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 2px solid var(--border-gray);
+  text-align: center;
+  color: #64748b;
+}
+
+.footer a {
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid var(--border-gray);
+  margin: 40px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 15px;
+  }
+
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-image {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  /* Hide timeline on mobile */
+  .timeline {
+    padding-left: 0;
+  }
+
+  .timeline::before,
+  .experience-item::before {
+    display: none;
+  }
+
+  .company-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .company-logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
