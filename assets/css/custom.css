@@ -19,7 +19,7 @@ body {
 
 /* Hero Section */
 .hero {
-  background: var(--white);
+  background: transparent;
   padding: 80px 60px;
   display: flex;
   align-items: center;
@@ -80,13 +80,13 @@ body {
   height: 280px;
   border-radius: 50%;
   object-fit: cover;
-  border: 6px solid var(--tan-bg);
-  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+  border: 6px solid rgba(139,115,85,0.3);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.15);
 }
 
 /* About Section */
 .about-section {
-  background: var(--white);
+  background: transparent;
   padding: 60px;
   margin-bottom: 0;
 }
@@ -116,7 +116,7 @@ h2 {
 
 /* Experience Sections */
 .experience-section {
-  background: var(--white);
+  background: transparent;
   padding: 80px 60px;
   margin-bottom: 40px;
 }
@@ -170,7 +170,7 @@ h2 {
 
 /* Footer */
 .footer {
-  background: var(--white);
+  background: transparent;
   padding: 60px;
   text-align: center;
 }
