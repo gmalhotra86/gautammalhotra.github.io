@@ -37,7 +37,10 @@ layout: default
 </div>
 
 <div class="footer">
-  <p><strong>Connect</strong></p>
-  <p><a href="https://linkedin.com/in/gautam-malhotra" target="_blank">LinkedIn</a></p>
-  <p><a href="mailto:gmalhotra86@gmail.com">Email</a></p>
+  <h2>Get in touch</h2>
+  <p class="cta">Open to advisory roles at scale-up B2B SaaS companies</p>
+  <div class="contact-links">
+    <a href="https://linkedin.com/in/gautam-malhotra" target="_blank">LinkedIn</a>
+    <a href="mailto:gmalhotra86@gmail.com">Email</a>
+  </div>
 </div>
