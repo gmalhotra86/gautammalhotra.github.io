@@ -1,29 +1,30 @@
 /* Personal Website Custom Styles */
 
 :root {
-  --navy: #1e3a8a;
-  --light-gray: #f8fafc;
-  --text-black: #0f172a;
-  --border-gray: #e2e8f0;
+  --tan-bg: #E8DDD3;
+  --dark-text: #2c2c2c;
+  --accent: #8B7355;
+  --white: #ffffff;
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  line-height: 1.6;
-  color: var(--text-black);
-  max-width: 800px;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.7;
+  color: var(--dark-text);
+  max-width: 900px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 0;
+  background: var(--tan-bg);
 }
 
 /* Hero Section */
 .hero {
+  background: var(--white);
+  padding: 80px 60px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  margin-bottom: 60px;
-  padding-bottom: 40px;
-  border-bottom: 2px solid var(--border-gray);
+  gap: 60px;
+  margin-bottom: 0;
 }
 
 .hero-content {
@@ -31,211 +32,216 @@ body {
 }
 
 .hero h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  color: var(--navy);
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+  color: var(--dark-text);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
 }
 
 .tagline {
-  font-size: 1.1rem;
-  color: #64748b;
-  margin: 0.5rem 0;
+  font-size: 1.3rem;
+  color: #666;
+  margin: 1rem 0;
+  line-height: 1.6;
 }
 
 .current-role {
-  font-size: 1rem;
-  font-weight: 500;
-  margin: 0.5rem 0 1rem 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1.5rem 0;
+  color: var(--accent);
 }
 
 .contact-links {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
 
 .contact-links a {
-  color: var(--navy);
+  color: var(--dark-text);
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: color 0.2s;
 }
 
 .contact-links a:hover {
-  text-decoration: underline;
+  color: var(--accent);
 }
 
 .hero-image {
-  margin-left: 40px;
+  flex-shrink: 0;
 }
 
 .headshot {
-  width: 150px;
-  height: 150px;
+  width: 280px;
+  height: 280px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid var(--border-gray);
+  border: 6px solid var(--tan-bg);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.1);
 }
 
 /* About Section */
+.about-section {
+  background: var(--white);
+  padding: 60px;
+  margin-bottom: 0;
+}
+
+.about-section h2 {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+  color: var(--dark-text);
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  color: #444;
+}
+
 h2 {
-  color: var(--navy);
-  font-size: 1.75rem;
-  margin-top: 60px;
-  margin-bottom: 20px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid var(--border-gray);
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+  color: var(--dark-text);
 }
 
-/* Timeline & Experience */
-.timeline {
-  position: relative;
-  padding-left: 40px;
-}
-
-.timeline::before {
-  content: '';
-  position: absolute;
-  left: 15px;
-  top: 0;
-  bottom: 0;
-  width: 2px;
-  background: var(--border-gray);
-}
-
-.experience-item {
-  position: relative;
+/* Experience Sections */
+.experience-section {
+  background: var(--white);
+  padding: 80px 60px;
   margin-bottom: 40px;
-  padding-bottom: 30px;
-  border-bottom: 1px solid var(--light-gray);
 }
 
-.experience-item::before {
-  content: '';
-  position: absolute;
-  left: -29px;
-  top: 8px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--navy);
-  border: 2px solid white;
-  box-shadow: 0 0 0 2px var(--navy);
+.company-name {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: var(--dark-text);
 }
 
-.company-header {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 10px;
-}
-
-.company-logo {
-  width: 40px;
-  height: 40px;
-  object-fit: contain;
-  margin-right: 15px;
-  filter: grayscale(30%);
-}
-
-.title-date {
-  flex: 1;
-}
-
-.experience-item h3 {
+.role-date {
   font-size: 1.2rem;
-  margin: 0 0 0.25rem 0;
-  color: var(--text-black);
+  color: #666;
+  margin-bottom: 30px;
 }
 
-.date {
-  font-size: 0.9rem;
-  color: #64748b;
+.company-intro {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: #555;
+  margin-bottom: 40px;
+  padding-left: 30px;
+  border-left: 4px solid var(--accent);
+}
+
+.highlights {
+  list-style: none;
+  padding: 0;
   margin: 0;
 }
 
-.context {
-  font-size: 0.95rem;
-  color: #475569;
-  font-style: italic;
-  margin: 10px 0 15px 0;
+.highlights li {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  padding-left: 35px;
+  position: relative;
+  color: #444;
 }
 
-.experience-item ul {
-  margin-top: 15px;
-  padding-left: 20px;
-}
-
-.experience-item li {
-  margin-bottom: 10px;
-  line-height: 1.5;
-}
-
-/* Bold metrics in bullets */
-.experience-item li strong {
+.highlights li:before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
   font-weight: 700;
-  color: var(--navy);
+  font-size: 1.3rem;
 }
 
 /* Footer */
 .footer {
-  margin-top: 60px;
-  padding-top: 40px;
-  border-top: 2px solid var(--border-gray);
+  background: var(--white);
+  padding: 60px;
   text-align: center;
-  color: #64748b;
+}
+
+.footer p {
+  font-size: 1.1rem;
+  margin: 15px 0;
+  color: #666;
+}
+
+.footer strong {
+  color: var(--dark-text);
+  font-size: 1.3rem;
 }
 
 .footer a {
-  color: var(--navy);
+  color: var(--dark-text);
   text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
 }
 
 .footer a:hover {
-  text-decoration: underline;
+  color: var(--accent);
 }
 
 /* Horizontal rules */
 hr {
-  border: none;
-  border-top: 1px solid var(--border-gray);
-  margin: 40px 0;
+  display: none;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
   body {
-    padding: 15px;
+    padding: 0;
   }
 
   .hero {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    padding: 40px 30px;
     text-align: center;
-  }
-
-  .hero-image {
-    margin-left: 0;
-    margin-top: 20px;
   }
 
   .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .headshot {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 30px;
+  }
+
+  .about-section,
+  .experience-section {
+    padding: 40px 30px;
+  }
+
+  .company-name {
     font-size: 2rem;
   }
 
-  /* Hide timeline on mobile */
-  .timeline {
-    padding-left: 0;
+  .company-intro {
+    padding-left: 20px;
   }
 
-  .timeline::before,
-  .experience-item::before {
-    display: none;
+  .highlights li {
+    padding-left: 30px;
   }
 
-  .company-header {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .company-logo {
-    margin-right: 0;
-    margin-bottom: 10px;
+  .footer {
+    padding: 40px 30px;
   }
 }
