@@ -6,7 +6,6 @@ url: "https://gautamm.com"
 linkedin_username: gautam-malhotra
 
 # Build settings
-theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
 
