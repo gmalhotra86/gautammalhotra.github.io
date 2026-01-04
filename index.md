@@ -15,13 +15,7 @@ layout: default
 
 <div class="about-section">
   <h2>What I'm focused on now</h2>
-  <ul class="highlights">
-    <li>Leading Acrobat Sign at Adobe, a ~$x00M ARR global e-signature platform across Enterprise, Mid-Market, and SMB</li>
-    <li>Designing retention-first product strategies for mature SaaS businesses</li>
-    <li>Applying AI where it creates real operational leverage</li>
-    <li>Building product organizations with clear accountability</li>
-    <li>Developing leaders who own outcomes, not just roadmaps</li>
-  </ul>
+  <p class="intro-text">I'm a GM-oriented product leader focused on building durable SaaS businesses. My work centers on retention-first strategy, applying AI for real operational leverage, and designing product organizations with clear accountability. I care deeply about customer-grounded decision-making and developing leaders who own outcomes, not just roadmaps.</p>
 </div>
 
 <div class="experience-section">
