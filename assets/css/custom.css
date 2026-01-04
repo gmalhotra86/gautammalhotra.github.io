@@ -44,7 +44,7 @@ body {
 .tagline {
   font-size: 1.3rem;
   color: #666;
-  margin: 1rem 0;
+  margin: 1rem 0 1.5rem 0;
   line-height: 1.6;
 }
 
@@ -73,10 +73,6 @@ body {
 
 .hero-image {
   flex-shrink: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
 }
 
 .headshot {
@@ -92,8 +88,10 @@ body {
   color: var(--dark-text);
   text-decoration: none;
   font-weight: 600;
-  font-size: 1rem;
+  font-size: 1.05rem;
   transition: color 0.2s;
+  display: inline-block;
+  margin-top: 0.5rem;
 }
 
 .hero-cta:hover {
@@ -269,7 +267,8 @@ hr {
   }
 
   .hero-cta {
-    font-size: 0.95rem;
+    font-size: 1rem;
+    margin-top: 1rem;
   }
 
   .about-section {

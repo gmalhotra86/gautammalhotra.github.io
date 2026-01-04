@@ -6,10 +6,10 @@ layout: default
   <div class="hero-content">
     <h1>Gautam Malhotra</h1>
     <p class="tagline">Product strategy. Operating leverage. Durable growth.</p>
+    <a href="#contact" class="hero-cta">Get in touch</a>
   </div>
   <div class="hero-image">
     <img src="assets/images/headshot.jpg" alt="Gautam Malhotra" class="headshot">
-    <a href="#contact" class="hero-cta">Get in touch →</a>
   </div>
 </div>
 
@@ -26,7 +26,7 @@ layout: default
   
   <p class="company-intro"><strong>Intuit</strong> - Building deep customer discovery and customer-obsessed product practices in SMB SaaS, grounding strategy in real workflows, pain points, and behavioral data</p>
   
-  <p class="company-intro">(Kellogg MBA)</p>
+  <p class="company-intro">Northwestern - Kellogg MBA, University of Virginia BA with Distinction</p>
 </div>
 
 <div class="footer" id="contact">
