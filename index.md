@@ -29,6 +29,33 @@ layout: default
   <p class="company-intro">Northwestern - Kellogg MBA, University of Virginia BA with Distinction</p>
 </div>
 
+<div class="projects-section">
+  <h2>AI Projects</h2>
+  <div class="project-cards">
+    <div class="project-card">
+      <div class="project-card-header">
+        <span class="project-badge">In Progress</span>
+      </div>
+      <h3 class="project-name">Weekly Review System</h3>
+      <p class="project-desc">An AI-powered agent that synthesizes weekly work, surfaces patterns, and generates structured reflection prompts.</p>
+    </div>
+    <div class="project-card">
+      <div class="project-card-header">
+        <span class="project-badge">In Progress</span>
+      </div>
+      <h3 class="project-name">Personal Life Assistant Agent</h3>
+      <p class="project-desc">A persistent AI agent that manages tasks, priorities, and decisions across work and life with full context.</p>
+    </div>
+    <div class="project-card">
+      <div class="project-card-header">
+        <span class="project-badge">In Progress</span>
+      </div>
+      <h3 class="project-name">gautamm.com Redesign</h3>
+      <p class="project-desc">Rebuilding this site to be a living, AI-native portfolio — updated dynamically and built with Claude.</p>
+    </div>
+  </div>
+</div>
+
 <div class="footer" id="contact">
   <h2>Get in touch</h2>
   <p class="cta">Open to advisory roles at scale-up B2B SaaS companies</p>
